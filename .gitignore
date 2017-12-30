@@ -3,3 +3,4 @@ venv
 logs
 .idea
 .DS_Store
+.env
