@@ -20,3 +20,4 @@ class Config(object):
     LANGUAGES = ['en', 'es', 'ro']
     MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
     ELASTICSEARCH_URI = os.environ.get('ELASTICSEARCH_URI')
+    REDIS_URL = os.environ.get('REDIS_URL') or 'redis://'
